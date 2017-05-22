@@ -1,0 +1,41 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Arial", "Helvetica", sans-serif;
+  color: #333333;
+  border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+	/*background: gold; <---- para caso eu queira deixar o fundo ridículo*/
+}
+p {
+  text-align: left;
+  line-height: 18px; /* tamanho da altura de cada linha */
+  letter-spacing: 0.2px; /* tamanho do espaço entre cada letra */
+  word-spacing: 2px; /* tamanho do espaço entre cada palavra */
+  text-indent: 30px; /* tamanho da margem da primeira linha do texto */
+  padding: 0 45px;
+}
+h1{
+  background-image: url(../img/sobre-background.jpg);
+  padding: 10px;
+  /*color: rgb(255, 200, 0);*/
+}
+h2 {
+  border-bottom: 2px solid #333333;
+  margin-top: 30px;
+}
+figure {
+  background: grey;
+  border: 10px double;
+  font-style: italic;
+  text-align: center;
+  display: table;
+  padding: 15px;
+  margin: 30px;
+}
+figcaption {
+  font-style: italic;
+  margin-top: 10px;
+}
